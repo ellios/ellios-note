@@ -12,6 +12,8 @@ Contents:
    :maxdepth: 1
 
    markup
+   python
+   tools
       
 
 Indices and tables

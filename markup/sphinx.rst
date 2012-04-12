@@ -15,5 +15,5 @@ Install
 ======================
 Ubuntu已经装了python2.7，只需要再装sphinx就行了。我是通过pip安装的::
     
- pip install Sphinx
+    pip install Sphinx
 
