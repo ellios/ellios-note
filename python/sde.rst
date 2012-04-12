@@ -47,7 +47,7 @@ virtualenv能够创立一个独立的python运行环境，可以用它实现测�
 
       virtualenv /opt/pyenvs/devp
       source /opt/pyenvs/devp/bin/activate
-
+      virtualenv_deactivate
 执行完命令后，会在shell前面出现一个devp的提示，表示已经激活了该环境。
 
 virtualenvwrapper
@@ -65,6 +65,8 @@ virtualenvwrapper
       mkvirtualenv devp
       mkvirtualenv prod
       workon devp
+      rmvirtualenv
+      lssitepackages
       
 IDE
 ==================================================

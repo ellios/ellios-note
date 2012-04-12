@@ -14,6 +14,7 @@ Contents:
    markup
    python
    tools
+   ice
       
 
 Indices and tables
