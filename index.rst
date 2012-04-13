@@ -15,6 +15,7 @@ Contents:
    python
    tools
    ice
+   linux
       
 
 Indices and tables
