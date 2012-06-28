@@ -16,7 +16,7 @@ Contents:
    tools
    ice
    linux
-   basic
+   miscellaneous
       
 
 Indices and tables

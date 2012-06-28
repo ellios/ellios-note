@@ -20,7 +20,7 @@ Apt安装非常简单 ::
 --------------------------------------------------
 编译安装这个东西费了牛劲，出了好多问题，这里是大概的过程::
 
-  https://launchpad.net/libmemcached/1.0/1.0.6/+download/libmemcached-1.0.6.tar.gz
+  wget https://launchpad.net/libmemcached/1.0/1.0.6/+download/libmemcached-1.0.6.tar.gz
   tar libmemcached-1.0.6.tar.gz
   cd libmemcached-1.0.6
   ./configure --prefix=/opt/apps/libmemcached
