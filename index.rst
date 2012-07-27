@@ -17,6 +17,7 @@ Contents:
    ice
    linux
    miscellaneous
+   java
       
 
 Indices and tables
