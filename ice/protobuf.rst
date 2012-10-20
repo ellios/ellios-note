@@ -23,7 +23,7 @@ install
     pip install protobuf
 
 
-CPP的编译Makefile
+CPP
 --------------------------------------------------
 
 Makefile ::
