@@ -18,6 +18,7 @@ Contents:
    linux
    miscellaneous
    java
+   nosql
       
 
 Indices and tables

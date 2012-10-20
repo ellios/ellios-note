@@ -71,8 +71,8 @@ virtualenvwrapper
 IDE
 ==================================================
 个人感觉eclipse + pydev 已经比较好了。最近在学emacs，以后逐步用emacs来开发吧。
-  
- 
-									   
 
 
+Reference
+==================================================
+`pip的使用文档 <http://www.pip-installer.org/en/latest/index.html>`_
