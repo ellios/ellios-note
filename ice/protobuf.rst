@@ -1,6 +1,6 @@
-.. proto buffer
+.. protocol buffer
 
-proto buffer
+protocol buffer
 ##################################################
 
 
