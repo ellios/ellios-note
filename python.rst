@@ -10,3 +10,4 @@ Python
 *    :doc:`cx_Oracle <python/cx_Oracle>`
 *    :doc:`datetime <python/datetime>`
 *    :doc:`base64 <python/base64>`
+*    :doc:`oursql <python/oursql>`

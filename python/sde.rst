@@ -13,6 +13,14 @@ Dev Environment
 安装Python
 ==================================================
 
+    编译安装2.7.3，貌似在centos,redhat下面有个bug，在装sqlite的包时会失败，用下面的安装步骤 ::
+        
+        curl -sk https://raw.github.com/gist/2727063/ | patch -p1
+        ./configure --prefix=/opt/apps/python2 --enable-shared --enable-profiling
+        make
+        make install
+
+
     觉得系统自带的python版本比较低的话，可以apt自动安装。(3.2版本是目前正式发布的最高版本) ::
 
 	sudo apt-get install python3.2
