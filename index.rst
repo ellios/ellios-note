@@ -19,7 +19,7 @@ Contents:
    miscellaneous
    java
    nosql
-      
+   devop   
 
 Indices and tables
 ==================

@@ -24,6 +24,7 @@ RedHat5，64位
 这样mongodb已经安装好了，执行service mongod start就可以启动mongodb server了。
 
 下面安装mongodb的GUI管理工具 `RockMongo <http://rockmongo.com/>`_,这个东西是用php写的web管理端，所以要安装php，php的版本最好是5.3以上的版本（安装php的时候出了问题，rockmongo的官方文档貌似是支持最低版本5.1.6的，redhat官方源自带的php，版本就是5.1.6的，但是在安装mongodb的php驱动的时候编译失败，把php升级到5.4版本，就OK了），下面简单列下安装步骤，执行下面的命令 ::
+
   rpm -ivh http://mirrors.ustc.edu.cn/fedora/epel/5/x86_64/epel-release-5-4.noarch.rpm
   rpm -ivh http://rpms.famillecollet.com/enterprise/remi-release-5.rpm
   yum update
@@ -40,3 +41,8 @@ RedHat5，64位
   #编辑/etc/php.ini文件，添加extension=mongo.so
   httpd -k stop
   httpd -k start
+
+MongoDB配置
+==================================================
+`http://docs.mongodb.org/manual/reference/configuration-options/`_
+`https://github.com/kylefritz/mongod.conf/blob/master/mongo.conf`_
